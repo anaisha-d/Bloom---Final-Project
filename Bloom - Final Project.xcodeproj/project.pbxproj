@@ -17,7 +17,10 @@
 		7BA29AEF2887393F004C2AFC /* Bloom___Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29AEE2887393F004C2AFC /* Bloom___Final_ProjectTests.swift */; };
 		7BA29AF92887393F004C2AFC /* Bloom___Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29AF82887393F004C2AFC /* Bloom___Final_ProjectUITests.swift */; };
 		7BA29AFB2887393F004C2AFC /* Bloom___Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29AFA2887393F004C2AFC /* Bloom___Final_ProjectUITestsLaunchTests.swift */; };
-		7BA29B0A28875FCE004C2AFC /* Gaegu in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B0928875FCE004C2AFC /* Gaegu */; };
+		7BA29B3228888AD8004C2AFC /* Gaegu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */; };
+		7BA29B3328888AD8004C2AFC /* Gaegu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */; };
+		7BA29B3428888AD8004C2AFC /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */; };
+		7BA29B3628888B5A004C2AFC /* Gaegu in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3528888B5A004C2AFC /* Gaegu */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,10 @@
 		7BA29AF42887393F004C2AFC /* Bloom - Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bloom - Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA29AF82887393F004C2AFC /* Bloom___Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bloom___Final_ProjectUITests.swift"; sourceTree = "<group>"; };
 		7BA29AFA2887393F004C2AFC /* Bloom___Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bloom___Final_ProjectUITestsLaunchTests.swift"; sourceTree = "<group>"; };
-		7BA29B0928875FCE004C2AFC /* Gaegu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gaegu; sourceTree = "<group>"; };
+		7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Light.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Light.ttf"; sourceTree = "<group>"; };
+		7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Regular.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Regular.ttf"; sourceTree = "<group>"; };
+		7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Bold.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Bold.ttf"; sourceTree = "<group>"; };
+		7BA29B3528888B5A004C2AFC /* Gaegu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gaegu; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 		7BA29AC82887393D004C2AFC = {
 			isa = PBXGroup;
 			children = (
+				7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */,
+				7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */,
+				7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */,
 				7BA29AD32887393D004C2AFC /* Bloom - Final Project */,
 				7BA29AED2887393F004C2AFC /* Bloom - Final ProjectTests */,
 				7BA29AF72887393F004C2AFC /* Bloom - Final ProjectUITests */,
@@ -110,7 +119,7 @@
 				7BA29AE02887393F004C2AFC /* Assets.xcassets */,
 				7BA29AE22887393F004C2AFC /* LaunchScreen.storyboard */,
 				7BA29AE52887393F004C2AFC /* Info.plist */,
-				7BA29B0928875FCE004C2AFC /* Gaegu */,
+				7BA29B3528888B5A004C2AFC /* Gaegu */,
 				7BA29ADD2887393D004C2AFC /* Bloom___Final_Project.xcdatamodeld */,
 			);
 			path = "Bloom - Final Project";
@@ -237,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA29B3628888B5A004C2AFC /* Gaegu in Resources */,
+				7BA29B3228888AD8004C2AFC /* Gaegu-Light.ttf in Resources */,
+				7BA29B3328888AD8004C2AFC /* Gaegu-Regular.ttf in Resources */,
+				7BA29B3428888AD8004C2AFC /* Gaegu-Bold.ttf in Resources */,
 				7BA29AE42887393F004C2AFC /* LaunchScreen.storyboard in Resources */,
 				7BA29AE12887393F004C2AFC /* Assets.xcassets in Resources */,
-				7BA29B0A28875FCE004C2AFC /* Gaegu in Resources */,
 				7BA29ADC2887393D004C2AFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
