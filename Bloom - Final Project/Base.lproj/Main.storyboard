@@ -31,7 +31,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -102,7 +102,7 @@
                                         <fragment content="what is climate change?">
                                             <attributes>
                                                 <color key="NSColor" red="0.41535085440000002" green="0.23947927359999999" blue="0.1215244308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="29" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -117,7 +117,7 @@
                                         <fragment content="how does it affect us?">
                                             <attributes>
                                                 <color key="NSColor" red="0.41535085440000002" green="0.23947927359999999" blue="0.1215244308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="29" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -133,7 +133,7 @@
                                         <fragment content="how can we prevent it?">
                                             <attributes>
                                                 <color key="NSColor" red="0.41535085440000002" green="0.23947927359999999" blue="0.1215244308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="29" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -149,7 +149,7 @@
                                         <fragment content=" the different types ">
                                             <attributes>
                                                 <color key="NSColor" red="0.41535085440000002" green="0.23947927359999999" blue="0.1215244308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="29" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -165,7 +165,7 @@
                                         <fragment content="notable names">
                                             <attributes>
                                                 <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="29" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -241,13 +241,6 @@
                                     <backgroundConfiguration key="background" image="yellowflower"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLOOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyS-Xw-367">
-                                <rect key="frame" x="74" y="311" width="290" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="101"/>
-                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="helping people combat climate change!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcg-jB-9hp">
                                 <rect key="frame" x="83" y="401" width="281" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -294,6 +287,13 @@
                                 <rect key="frame" x="265" y="846" width="116" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="27"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLOOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyS-Xw-367">
+                                <rect key="frame" x="86" y="304" width="256" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="89"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -356,7 +356,7 @@
                                         <fragment content="are you ready to take a quiz about climate change?">
                                             <attributes>
                                                 <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="43" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="43"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -374,7 +374,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -405,7 +405,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="37" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="37"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -517,7 +517,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -536,7 +536,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -579,7 +579,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -598,7 +598,7 @@
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -644,7 +644,7 @@ WE PREVENT
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -663,7 +663,7 @@ WE PREVENT
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -709,7 +709,7 @@ US?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -728,7 +728,7 @@ US?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -771,7 +771,7 @@ US?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -790,7 +790,7 @@ US?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -835,7 +835,7 @@ CLIMATE CHANGE?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -854,7 +854,7 @@ CLIMATE CHANGE?</string>
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="22" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
