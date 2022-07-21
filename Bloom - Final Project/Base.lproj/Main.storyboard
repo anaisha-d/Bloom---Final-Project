@@ -292,10 +292,10 @@
             </objects>
             <point key="canvasLocation" x="29.439252336448597" y="83.585313174946009"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources!-->
         <scene sceneID="yti-Cl-HN1">
             <objects>
-                <viewController id="oNE-S6-yre" sceneMemberID="viewController">
+                <viewController title="Resources!" id="oNE-S6-yre" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="deu-Q0-BhU">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -379,10 +379,10 @@ links!!</string>
             </objects>
             <point key="canvasLocation" x="738.78504672897191" y="83.585313174946009"/>
         </scene>
-        <!--View Controller-->
+        <!--Petitions!-->
         <scene sceneID="MMc-kZ-aOh">
             <objects>
-                <viewController id="83p-k8-PO1" sceneMemberID="viewController">
+                <viewController title="Petitions!" id="83p-k8-PO1" customClass="PetitionsViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M67-kg-uew">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,19 +420,117 @@ links!!</string>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fp-wf-4c4">
+                                <rect key="frame" x="52" y="205" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton1pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="zrk-uz-IYU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-OP-dDp">
+                                <rect key="frame" x="52" y="271" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton2pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="Yl6-8J-UD9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXo-de-aUv">
+                                <rect key="frame" x="52" y="336" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton3pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="Bke-aO-9MQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-em-3K5">
+                                <rect key="frame" x="52" y="402" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton4pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="etH-L6-cuO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aor-6J-q26">
+                                <rect key="frame" x="51" y="468" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton5pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="qNs-th-ghq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfT-JN-fKR">
+                                <rect key="frame" x="52" y="533" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton6pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="3Z1-RL-6hT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCS-RG-QQ2">
+                                <rect key="frame" x="52" y="599" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton7pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="ATl-jw-E7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-oH-IS1">
+                                <rect key="frame" x="52" y="707" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="yellowflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="petitionButton8pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="hdI-EW-TFD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s6D-1T-NXy"/>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.80784313725490198" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="petitionButton1" destination="7fp-wf-4c4" id="e46-CD-rWl"/>
+                        <outlet property="petitionButton2" destination="Ihc-OP-dDp" id="hFb-y7-ESB"/>
+                        <outlet property="petitionButton3" destination="EXo-de-aUv" id="Dg1-Ea-o8i"/>
+                        <outlet property="petitionButton4" destination="S3C-em-3K5" id="ccQ-SU-7uN"/>
+                        <outlet property="petitionButton5" destination="Aor-6J-q26" id="Zwp-lg-F5h"/>
+                        <outlet property="petitionButton6" destination="hfT-JN-fKR" id="c57-8h-Whr"/>
+                        <outlet property="petitionButton7" destination="hCS-RG-QQ2" id="Nii-ew-36A"/>
+                        <outlet property="petitionButton8" destination="Bdh-oH-IS1" id="s7V-Ld-0w1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q64-eC-ulD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1431" y="84"/>
         </scene>
-        <!--View Controller-->
+        <!--Donations!-->
         <scene sceneID="KNv-Tx-2SO">
             <objects>
-                <viewController id="Skk-Pl-kI4" sceneMemberID="viewController">
+                <viewController title="Donations!" id="Skk-Pl-kI4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xw2-oj-pFY">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1563,6 +1661,7 @@ completed!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="FqR-Rv-1Gp"/>
         <segue reference="jSu-s9-crg"/>
         <segue reference="PBv-Pt-MMW"/>
         <segue reference="PgW-kv-Rii"/>
@@ -1571,7 +1670,7 @@ completed!</string>
         <segue reference="kTE-Bn-veH"/>
         <segue reference="yqY-e3-4uG"/>
         <segue reference="69i-QO-Ps1"/>
-        <segue reference="uq0-Fj-Dmf"/>
+        <segue reference="2Fr-aC-wlk"/>
         <segue reference="fTb-Ll-hmQ"/>
     </inferredMetricsTieBreakers>
     <resources>
