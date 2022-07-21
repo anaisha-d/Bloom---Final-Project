@@ -1448,7 +1448,7 @@ completed!</string>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="completeTapped:" destination="pIs-zi-0Y2" eventType="touchUpInside" id="47D-eL-Zja"/>
-                                    <segue destination="bLJ-lf-6Cc" kind="presentation" modalPresentationStyle="fullScreen" id="uoY-on-ycO"/>
+                                    <segue destination="bLJ-lf-6Cc" kind="show" id="uoY-on-ycO"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="yIb-3R-3uA">
@@ -1508,7 +1508,7 @@ completed!</string>
             <objects>
                 <tableViewController id="bLJ-lf-6Cc" customClass="ToDoTableViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="K9v-5M-DUg">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -1528,7 +1528,11 @@ completed!</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="to-do list!" id="gJW-Fy-ifq">
-                        <barButtonItem key="rightBarButtonItem" title="back home!" style="plain" id="O3J-Tg-dxb"/>
+                        <barButtonItem key="rightBarButtonItem" title="back home!" style="plain" id="O3J-Tg-dxb">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="uq0-Fj-Dmf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="pIs-zi-0Y2" kind="show" identifier="moveToComplete" id="FPi-9y-yOK"/>
@@ -1536,7 +1540,7 @@ completed!</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmS-Tu-HrQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2162" y="730"/>
+            <point key="canvasLocation" x="2183" y="730"/>
         </scene>
         <!--to-do list!-->
         <scene sceneID="pZP-4d-usg">
@@ -1567,7 +1571,7 @@ completed!</string>
         <segue reference="kTE-Bn-veH"/>
         <segue reference="yqY-e3-4uG"/>
         <segue reference="69i-QO-Ps1"/>
-        <segue reference="PWf-so-sZW"/>
+        <segue reference="uq0-Fj-Dmf"/>
         <segue reference="fTb-Ll-hmQ"/>
     </inferredMetricsTieBreakers>
     <resources>
