@@ -21,6 +21,9 @@
 		7BA29B3328888AD8004C2AFC /* Gaegu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */; };
 		7BA29B3428888AD8004C2AFC /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */; };
 		7BA29B3628888B5A004C2AFC /* Gaegu in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3528888B5A004C2AFC /* Gaegu */; };
+		8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */; };
+		8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D028891A3200DBAE02 /* ToDo.swift */; };
+		8542B7D328892E4B00DBAE02 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Regular.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Regular.ttf"; sourceTree = "<group>"; };
 		7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Bold.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Bold.ttf"; sourceTree = "<group>"; };
 		7BA29B3528888B5A004C2AFC /* Gaegu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gaegu; sourceTree = "<group>"; };
+		8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		8542B7D028891A3200DBAE02 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 		7BA29AC82887393D004C2AFC = {
 			isa = PBXGroup;
 			children = (
+				8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */,
+				8542B7D028891A3200DBAE02 /* ToDo.swift */,
+				8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */,
 				7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */,
 				7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */,
 				7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */,
@@ -280,7 +289,10 @@
 				7BA29ADF2887393D004C2AFC /* Bloom___Final_Project.xcdatamodeld in Sources */,
 				7BA29AD92887393D004C2AFC /* ViewController.swift in Sources */,
 				7BA29AD52887393D004C2AFC /* AppDelegate.swift in Sources */,
+				8542B7D328892E4B00DBAE02 /* CompleteToDoViewController.swift in Sources */,
+				8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */,
 				7BA29AD72887393D004C2AFC /* SceneDelegate.swift in Sources */,
+				8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

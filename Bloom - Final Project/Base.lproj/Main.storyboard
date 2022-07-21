@@ -11,6 +11,9 @@
         <array key="Gaegu-Bold.ttf">
             <string>Gaegu-Bold</string>
         </array>
+        <array key="Gaegu-Regular.ttf">
+            <string>Gaegu-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -220,7 +223,7 @@
                                     <backgroundConfiguration key="background" image="yellowflower"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="bLJ-lf-6Cc" kind="presentation" modalPresentationStyle="fullScreen" id="Y9a-IV-KU6"/>
+                                    <segue destination="OMf-Vm-2lc" kind="presentation" identifier="" modalPresentationStyle="fullScreen" id="AF0-UV-ZUs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="helping people combat climate change!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcg-jB-9hp">
@@ -350,7 +353,7 @@ links!!</string>
                                 <string key="text">donation 
 links!!</string>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="45"/>
-                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.40392156862745099" green="0.24313725490196078" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNB-v4-2E4">
@@ -419,7 +422,7 @@ links!!</string>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s6D-1T-NXy"/>
-                        <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.50196078431372548" green="0.80784313725490198" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q64-eC-ulD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1411,12 +1414,12 @@ CLIMATE CHANGE?</string>
             </objects>
             <point key="canvasLocation" x="31" y="730"/>
         </scene>
-        <!--View Controller-->
+        <!--Complete To Do View Controller-->
         <scene sceneID="zLm-y1-pOh">
             <objects>
-                <viewController id="pIs-zi-0Y2" sceneMemberID="viewController">
+                <viewController id="pIs-zi-0Y2" customClass="CompleteToDoViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x27-XN-0R0">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1n-g6-p2V">
@@ -1432,36 +1435,21 @@ CLIMATE CHANGE?</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRP-Kp-7HT">
                                 <rect key="frame" x="117" y="489" width="194" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment>
-                                            <string key="content">mark as
+                                <fontDescription key="fontDescription" name="Gaegu-Regular" family="Gaegu" pointSize="37"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">mark as
 completed!</string>
-                                            <attributes>
-                                                <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="37"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJU-Of-bPZ">
-                                <rect key="frame" x="41" y="262" width="346" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                </state>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="to-do name">
-                                            <attributes>
-                                                <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="43"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <string key="title">mark as
+completed!</string>
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Regular" family="Gaegu" pointSize="37"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="completeTapped:" destination="pIs-zi-0Y2" eventType="touchUpInside" id="47D-eL-Zja"/>
+                                    <segue destination="bLJ-lf-6Cc" kind="presentation" modalPresentationStyle="fullScreen" id="uoY-on-ycO"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="yIb-3R-3uA">
                                 <rect key="frame" x="105" y="322" width="218" height="173"/>
@@ -1495,25 +1483,36 @@ completed!</string>
                                 <rect key="frame" x="272" y="781" width="156" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZe-SV-sQ0">
+                                <rect key="frame" x="66" y="163" width="296" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="31"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jr8-sw-we6"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BGZ-7o-nRe"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="YZe-SV-sQ0" id="Rwd-dA-JFq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wd1-ZO-2zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2859.8130841121492" y="729.58963282937373"/>
+            <point key="canvasLocation" x="2964.9532710280373" y="729.58963282937373"/>
         </scene>
         <!--to-do list!-->
         <scene sceneID="JkY-bA-SOi">
             <objects>
-                <tableViewController id="bLJ-lf-6Cc" sceneMemberID="viewController">
+                <tableViewController id="bLJ-lf-6Cc" customClass="ToDoTableViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="K9v-5M-DUg">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gHC-XE-dZ0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="gHC-XE-dZ0">
                                 <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gHC-XE-dZ0" id="CR7-hs-LD3">
@@ -1531,10 +1530,13 @@ completed!</string>
                     <navigationItem key="navigationItem" title="to-do list!" id="gJW-Fy-ifq">
                         <barButtonItem key="rightBarButtonItem" title="back home!" style="plain" id="O3J-Tg-dxb"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="pIs-zi-0Y2" kind="show" identifier="moveToComplete" id="FPi-9y-yOK"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmS-Tu-HrQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2131" y="730"/>
+            <point key="canvasLocation" x="2162" y="730"/>
         </scene>
         <!--to-do list!-->
         <scene sceneID="pZP-4d-usg">
@@ -1544,6 +1546,9 @@ completed!</string>
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qVT-9h-FMc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="bLJ-lf-6Cc" kind="relationship" relationship="rootViewController" id="jSu-s9-crg"/>
                     </connections>
@@ -1554,17 +1559,16 @@ completed!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pkm-RB-AvF"/>
-        <segue reference="Y9a-IV-KU6"/>
-        <segue reference="Pk8-CK-fDD"/>
-        <segue reference="Ds0-Z7-uZL"/>
-        <segue reference="Dj3-Rl-fLK"/>
-        <segue reference="LEg-Gq-bjT"/>
-        <segue reference="ab7-bK-1V1"/>
+        <segue reference="uoY-on-ycO"/>
+        <segue reference="PBv-Pt-MMW"/>
+        <segue reference="PgW-kv-Rii"/>
+        <segue reference="fcG-AT-rlj"/>
+        <segue reference="Ruf-eC-8md"/>
+        <segue reference="kTE-Bn-veH"/>
         <segue reference="yqY-e3-4uG"/>
-        <segue reference="8xa-OW-Mc8"/>
-        <segue reference="3qx-5i-nuc"/>
-        <segue reference="djQ-nC-V8b"/>
+        <segue reference="69i-QO-Ps1"/>
+        <segue reference="PWf-so-sZW"/>
+        <segue reference="fTb-Ll-hmQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Unknown" width="298" height="169"/>
