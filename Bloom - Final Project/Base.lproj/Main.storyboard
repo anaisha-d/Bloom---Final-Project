@@ -512,11 +512,14 @@ links!!</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfF-9z-Lq5">
                                 <rect key="frame" x="138" y="577" width="153" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="yes!!">
+                                    <backgroundConfiguration key="background" cornerRadius="14" strokeWidth="0.0"/>
                                     <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="37"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="KdB-GU-Pwh" kind="presentation" modalPresentationStyle="fullScreen" id="gtf-Wg-Nta"/>
@@ -558,7 +561,7 @@ links!!</string>
         <!--View Controller-->
         <scene sceneID="jy8-ak-fv8">
             <objects>
-                <viewController id="KdB-GU-Pwh" sceneMemberID="viewController">
+                <viewController id="KdB-GU-Pwh" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8O4-gO-83d">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -567,7 +570,7 @@ links!!</string>
                                 <rect key="frame" x="275" y="804" width="153" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="next!">
+                                <buttonConfiguration key="configuration" style="plain" title="next">
                                     <backgroundConfiguration key="background" image="appicon"/>
                                     <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="22"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -598,12 +601,15 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="5.25 trillion">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ1A1ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="han-5B-iio"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-jo-v0Q">
                                 <rect key="frame" x="143" y="598" width="142" height="55"/>
@@ -613,13 +619,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="4.75 million">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ1A2ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="5Ah-Gh-yuC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-7U-rzO">
                                 <rect key="frame" x="143" y="676" width="142" height="55"/>
@@ -629,13 +638,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="5.67 billion">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ1A3ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="fQ2-gC-oHU"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plastic" translatesAutoresizingMaskIntoConstraints="NO" id="691-Qu-qkj">
                                 <rect key="frame" x="68" y="335" width="297" height="168"/>
@@ -645,6 +657,11 @@ links!!</string>
                         <viewLayoutGuide key="safeArea" id="qDY-Vo-l84"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="q1wrongButton1" destination="grJ-jo-v0Q" id="MhF-Pv-RMq"/>
+                        <outlet property="q1wrongButton2" destination="i0Z-7U-rzO" id="VXb-Ds-ko9"/>
+                        <outlet property="rightButton1" destination="7iZ-1i-6Xa" id="URN-uI-evr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aK1-Gm-Cdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -653,7 +670,7 @@ links!!</string>
         <!--View Controller-->
         <scene sceneID="e6W-B8-D9R">
             <objects>
-                <viewController id="akK-3R-f8f" sceneMemberID="viewController">
+                <viewController id="akK-3R-f8f" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTZ-oA-imD">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -690,13 +707,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="driving">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ2A1ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="oAh-Zg-85N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOv-VA-lrx">
                                 <rect key="frame" x="143" y="602" width="142" height="55"/>
@@ -706,13 +726,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="biking">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ2A2ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="OFd-JU-eCc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNH-Gg-0Ep">
                                 <rect key="frame" x="143" y="680" width="142" height="55"/>
@@ -722,18 +745,26 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="public">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ2A3ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="ubv-yE-y9Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jYK-6p-0JS"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="q2wrongButton1" destination="xxs-zJ-PQq" id="zti-lu-H6W"/>
+                        <outlet property="q2wrongButton2" destination="aNH-Gg-0Ep" id="w4z-sw-WdP"/>
+                        <outlet property="rightButton2" destination="mOv-VA-lrx" id="vgf-7b-qLU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m1W-IF-TUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -742,7 +773,7 @@ links!!</string>
         <!--View Controller-->
         <scene sceneID="Kfh-1b-Jsy">
             <objects>
-                <viewController id="ViR-hC-E3Z" sceneMemberID="viewController">
+                <viewController id="ViR-hC-E3Z" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iQz-Vp-NgQ">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -768,13 +799,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="yes">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ3A1ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="C2E-5u-1wN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULP-s4-qzU">
                                 <rect key="frame" x="143" y="595" width="142" height="55"/>
@@ -784,13 +818,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="no">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ3A2ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="ekg-vz-8X2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsk-nI-cbo">
                                 <rect key="frame" x="143" y="673" width="142" height="55"/>
@@ -798,15 +835,18 @@ links!!</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="maybe">
+                                        <fragment content="not sure">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ3A3ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="STZ-Ic-3ka"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wildfire" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-LS-qeb">
                                 <rect key="frame" x="68" y="339" width="293" height="161"/>
@@ -823,6 +863,11 @@ links!!</string>
                         <viewLayoutGuide key="safeArea" id="aTw-b6-kNB"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="q3wrongButton1" destination="ULP-s4-qzU" id="Evl-vF-iqY"/>
+                        <outlet property="q3wrongButton2" destination="jsk-nI-cbo" id="icr-Nj-PdJ"/>
+                        <outlet property="rightButton3" destination="sj2-od-vL1" id="f5Z-kX-xYr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohc-CE-JHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -831,7 +876,7 @@ links!!</string>
         <!--View Controller-->
         <scene sceneID="cfh-7R-bAo">
             <objects>
-                <viewController id="bRj-Ib-Ia1" sceneMemberID="viewController">
+                <viewController id="bRj-Ib-Ia1" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VlB-Aw-TWH">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -864,13 +909,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="50%">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ4A1ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="iv7-C3-Eeq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fna-9Q-CRO">
                                 <rect key="frame" x="143" y="591" width="142" height="55"/>
@@ -880,13 +928,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="19%">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ4A2ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="ico-wP-6bH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kY-K4-AaL">
                                 <rect key="frame" x="143" y="669" width="142" height="55"/>
@@ -896,13 +947,16 @@ links!!</string>
                                     <attributedString key="attributedTitle">
                                         <fragment content="29%">
                                             <attributes>
-                                                <font key="NSFont" size="21" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ4A3ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="0Jm-4A-Sn8"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plants" translatesAutoresizingMaskIntoConstraints="NO" id="8iT-NW-qNA">
                                 <rect key="frame" x="68" y="330" width="293" height="161"/>
@@ -912,6 +966,11 @@ links!!</string>
                         <viewLayoutGuide key="safeArea" id="OnD-zd-RVV"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="q4wrongButton1" destination="beo-Iv-DFv" id="91l-gd-jnY"/>
+                        <outlet property="q4wrongButton2" destination="fna-9Q-CRO" id="HzV-yh-3HD"/>
+                        <outlet property="rightButton4" destination="0kY-K4-AaL" id="PGc-Y7-KEC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4I6-wB-YRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1252,7 +1311,7 @@ CLIMATE CHANGE?</string>
         <!--View Controller-->
         <scene sceneID="8nx-ML-vTe">
             <objects>
-                <viewController id="CGu-zw-FTv" sceneMemberID="viewController">
+                <viewController id="CGu-zw-FTv" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ym5-v7-rCM">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1314,17 +1373,39 @@ CLIMATE CHANGE?</string>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x/4" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHy-N3-5lr">
-                                <rect key="frame" x="33" y="428" width="363" height="136"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x/4" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHy-N3-5lr">
+                                <rect key="frame" x="33" y="472" width="363" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="199"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFl-Zt-3id">
+                                <rect key="frame" x="126" y="373" width="177" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="37"/>
+                                <color key="tintColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="See Score">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" title="See Score">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="37"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="scoreButtonClicked:" destination="CGu-zw-FTv" eventType="touchUpInside" id="4zR-df-iqj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ssb-4A-rTz"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="totalLabel" destination="QHy-N3-5lr" id="Sq6-Nf-iHZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qqh-7T-YDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1359,7 +1440,7 @@ CLIMATE CHANGE?</string>
 completed!</string>
                                             <attributes>
                                                 <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="37" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="37"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1375,7 +1456,7 @@ completed!</string>
                                         <fragment content="to-do name">
                                             <attributes>
                                                 <color key="NSColor" red="0.41142910719999998" green="0.23948064450000001" blue="0.1136776134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="43" name="Gaegu-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="43"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1473,6 +1554,7 @@ completed!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="pkm-RB-AvF"/>
         <segue reference="Y9a-IV-KU6"/>
         <segue reference="Pk8-CK-fDD"/>
         <segue reference="Ds0-Z7-uZL"/>
@@ -1481,7 +1563,7 @@ completed!</string>
         <segue reference="ab7-bK-1V1"/>
         <segue reference="yqY-e3-4uG"/>
         <segue reference="8xa-OW-Mc8"/>
-        <segue reference="H7N-f7-ciQ"/>
+        <segue reference="3qx-5i-nuc"/>
         <segue reference="djQ-nC-V8b"/>
     </inferredMetricsTieBreakers>
     <resources>
