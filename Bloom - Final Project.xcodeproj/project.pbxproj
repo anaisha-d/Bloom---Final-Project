@@ -21,7 +21,6 @@
 		7BA29B3328888AD8004C2AFC /* Gaegu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */; };
 		7BA29B3428888AD8004C2AFC /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */; };
 		7BA29B3628888B5A004C2AFC /* Gaegu in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3528888B5A004C2AFC /* Gaegu */; };
-		7BA29B38288A339E004C2AFC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29B37288A339E004C2AFC /* QuizViewController.swift */; };
 		7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29B39288A4500004C2AFC /* EmailViewController.swift */; };
 		8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */; };
 		8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D028891A3200DBAE02 /* ToDo.swift */; };
@@ -65,7 +64,6 @@
 		7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Regular.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Regular.ttf"; sourceTree = "<group>"; };
 		7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Bold.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Bold.ttf"; sourceTree = "<group>"; };
 		7BA29B3528888B5A004C2AFC /* Gaegu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gaegu; sourceTree = "<group>"; };
-		7BA29B37288A339E004C2AFC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		7BA29B39288A4500004C2AFC /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		8542B7D028891A3200DBAE02 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 		7BA29AD32887393D004C2AFC /* Bloom - Final Project */ = {
 			isa = PBXGroup;
 			children = (
-				7BA29B37288A339E004C2AFC /* QuizViewController.swift */,
 				7BA29B39288A4500004C2AFC /* EmailViewController.swift */,
 				7BA29AD42887393D004C2AFC /* AppDelegate.swift */,
 				7BA29AD62887393D004C2AFC /* SceneDelegate.swift */,
@@ -301,7 +298,6 @@
 				8542B7D328892E4B00DBAE02 /* CompleteToDoViewController.swift in Sources */,
 				8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */,
 				7BA29AD72887393D004C2AFC /* SceneDelegate.swift in Sources */,
-				7BA29B38288A339E004C2AFC /* QuizViewController.swift in Sources */,
 				BD66B4272889D4AC008AA1AD /* PetitionsViewController.swift in Sources */,
 				8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */,
 				7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */,

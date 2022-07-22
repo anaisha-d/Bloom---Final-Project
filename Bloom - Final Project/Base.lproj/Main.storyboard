@@ -784,7 +784,7 @@ links!!</string>
         <!--QuizStart!-->
         <scene sceneID="ogC-Ax-xRf">
             <objects>
-                <viewController title="QuizStart!" id="nvB-7Y-ye5" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizStart!" id="nvB-7Y-ye5" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHn-oF-Jde">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -866,7 +866,7 @@ links!!</string>
         <!--QuizQuestion1!-->
         <scene sceneID="jy8-ak-fv8">
             <objects>
-                <viewController title="QuizQuestion1!" id="KdB-GU-Pwh" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizQuestion1!" id="KdB-GU-Pwh" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8O4-gO-83d">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -907,7 +907,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ1A3ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="fQ2-gC-oHU"/>
+                                    <action selector="whenQ1A3ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="Npe-6p-B6e"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plastic" translatesAutoresizingMaskIntoConstraints="NO" id="691-Qu-qkj">
@@ -923,7 +923,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ1A1ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="han-5B-iio"/>
+                                    <action selector="whenQ1A1ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="Aaq-9C-nkw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-jo-v0Q">
@@ -935,7 +935,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ1A2ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="5Ah-Gh-yuC"/>
+                                    <action selector="whenQ1A2ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="MPh-oz-ziY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -943,9 +943,9 @@ links!!</string>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="q1wrongButton1" destination="grJ-jo-v0Q" id="MhF-Pv-RMq"/>
+                        <outlet property="q1wrongButton1" destination="grJ-jo-v0Q" id="sIQ-es-6hT"/>
                         <outlet property="q1wrongButton2" destination="i0Z-7U-rzO" id="VXb-Ds-ko9"/>
-                        <outlet property="rightButton1" destination="7iZ-1i-6Xa" id="URN-uI-evr"/>
+                        <outlet property="rightButton1" destination="7iZ-1i-6Xa" id="Pdn-cd-ldV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aK1-Gm-Cdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -955,7 +955,7 @@ links!!</string>
         <!--QuizQuestion2!-->
         <scene sceneID="e6W-B8-D9R">
             <objects>
-                <viewController title="QuizQuestion2!" id="akK-3R-f8f" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizQuestion2!" id="akK-3R-f8f" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTZ-oA-imD">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -993,7 +993,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ2A1ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="oAh-Zg-85N"/>
+                                    <action selector="whenQ2A1ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="bF4-O8-BsU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOv-VA-lrx">
@@ -1005,7 +1005,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ2A2ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="OFd-JU-eCc"/>
+                                    <action selector="whenQ2A2ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="bhM-at-IgP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNH-Gg-0Ep">
@@ -1017,7 +1017,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ2A3ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="ubv-yE-y9Q"/>
+                                    <action selector="whenQ2A3ButtonPressed:" destination="akK-3R-f8f" eventType="touchUpInside" id="t2A-83-lr6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1025,9 +1025,9 @@ links!!</string>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="q2wrongButton1" destination="xxs-zJ-PQq" id="zti-lu-H6W"/>
-                        <outlet property="q2wrongButton2" destination="aNH-Gg-0Ep" id="w4z-sw-WdP"/>
-                        <outlet property="rightButton2" destination="mOv-VA-lrx" id="vgf-7b-qLU"/>
+                        <outlet property="q2wrongButton1" destination="xxs-zJ-PQq" id="aGQ-2T-jJV"/>
+                        <outlet property="q2wrongButton2" destination="aNH-Gg-0Ep" id="gDr-u6-8ba"/>
+                        <outlet property="rightButton2" destination="mOv-VA-lrx" id="hbA-0L-OpU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m1W-IF-TUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1037,7 +1037,7 @@ links!!</string>
         <!--QuizQuestion3!-->
         <scene sceneID="Kfh-1b-Jsy">
             <objects>
-                <viewController title="QuizQuestion3!" id="ViR-hC-E3Z" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizQuestion3!" id="ViR-hC-E3Z" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iQz-Vp-NgQ">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1064,7 +1064,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ3A1ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="C2E-5u-1wN"/>
+                                    <action selector="whenQ3A1ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="w3I-Pg-FEo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULP-s4-qzU">
@@ -1076,7 +1076,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ3A2ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="ekg-vz-8X2"/>
+                                    <action selector="whenQ3A2ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="uew-72-Tyx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsk-nI-cbo">
@@ -1088,7 +1088,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ3A3ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="STZ-Ic-3ka"/>
+                                    <action selector="whenQ3A3ButtonPressed:" destination="ViR-hC-E3Z" eventType="touchUpInside" id="XD5-0V-4vj"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wildfire" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-LS-qeb">
@@ -1107,9 +1107,9 @@ links!!</string>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="q3wrongButton1" destination="ULP-s4-qzU" id="Evl-vF-iqY"/>
-                        <outlet property="q3wrongButton2" destination="jsk-nI-cbo" id="icr-Nj-PdJ"/>
-                        <outlet property="rightButton3" destination="sj2-od-vL1" id="f5Z-kX-xYr"/>
+                        <outlet property="q3wrongButton1" destination="ULP-s4-qzU" id="mcH-nt-vIr"/>
+                        <outlet property="q3wrongButton2" destination="jsk-nI-cbo" id="Xex-N7-GED"/>
+                        <outlet property="rightButton3" destination="sj2-od-vL1" id="oSR-6C-Qr8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohc-CE-JHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1119,7 +1119,7 @@ links!!</string>
         <!--QuizQuestion4!-->
         <scene sceneID="cfh-7R-bAo">
             <objects>
-                <viewController title="QuizQuestion4!" id="bRj-Ib-Ia1" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizQuestion4!" id="bRj-Ib-Ia1" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VlB-Aw-TWH">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1153,7 +1153,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ4A1ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="iv7-C3-Eeq"/>
+                                    <action selector="whenQ4A1ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="vP7-Vf-6Cn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fna-9Q-CRO">
@@ -1165,7 +1165,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ4A2ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="ico-wP-6bH"/>
+                                    <action selector="whenQ4A2ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="XuV-Uv-a5m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kY-K4-AaL">
@@ -1177,7 +1177,7 @@ links!!</string>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="whenQ4A3ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="0Jm-4A-Sn8"/>
+                                    <action selector="whenQ4A3ButtonPressed:" destination="bRj-Ib-Ia1" eventType="touchUpInside" id="cNy-8n-q2q"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plants" translatesAutoresizingMaskIntoConstraints="NO" id="8iT-NW-qNA">
@@ -1189,9 +1189,9 @@ links!!</string>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="q4wrongButton1" destination="beo-Iv-DFv" id="91l-gd-jnY"/>
-                        <outlet property="q4wrongButton2" destination="fna-9Q-CRO" id="HzV-yh-3HD"/>
-                        <outlet property="rightButton4" destination="0kY-K4-AaL" id="PGc-Y7-KEC"/>
+                        <outlet property="q4wrongButton1" destination="beo-Iv-DFv" id="HxX-we-gm8"/>
+                        <outlet property="q4wrongButton2" destination="fna-9Q-CRO" id="Q83-zg-dJi"/>
+                        <outlet property="rightButton4" destination="0kY-K4-AaL" id="5s3-K8-UdM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4I6-wB-YRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1588,7 +1588,7 @@ CLIMATE CHANGE?</string>
         <!--QuizFinalScore!-->
         <scene sceneID="8nx-ML-vTe">
             <objects>
-                <viewController title="QuizFinalScore!" id="CGu-zw-FTv" customClass="QuizViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QuizFinalScore!" id="CGu-zw-FTv" customClass="ViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ym5-v7-rCM">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1673,7 +1673,7 @@ CLIMATE CHANGE?</string>
                                     <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="scoreButtonClicked:" destination="CGu-zw-FTv" eventType="touchUpInside" id="4zR-df-iqj"/>
+                                    <action selector="scoreButtonClicked:" destination="CGu-zw-FTv" eventType="touchUpInside" id="TJt-Or-LXI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1681,7 +1681,7 @@ CLIMATE CHANGE?</string>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="totalLabel" destination="QHy-N3-5lr" id="Sq6-Nf-iHZ"/>
+                        <outlet property="totalLabel" destination="QHy-N3-5lr" id="0g4-zx-Ul1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qqh-7T-YDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1837,15 +1837,16 @@ completed!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="9pG-dG-tck"/>
         <segue reference="wMk-md-RuA"/>
         <segue reference="Pk8-CK-fDD"/>
         <segue reference="rRw-yI-E8K"/>
         <segue reference="Dj3-Rl-fLK"/>
         <segue reference="Plv-q8-MDo"/>
         <segue reference="ab7-bK-1V1"/>
-        <segue reference="rer-3u-Zo9"/>
+        <segue reference="yqY-e3-4uG"/>
         <segue reference="8xa-OW-Mc8"/>
-        <segue reference="ANG-BW-LNw"/>
+        <segue reference="H7N-f7-ciQ"/>
         <segue reference="Jiz-n3-wrN"/>
     </inferredMetricsTieBreakers>
     <resources>
