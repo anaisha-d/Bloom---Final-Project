@@ -482,7 +482,7 @@
                                     <backgroundConfiguration key="background" image="brownflower"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="83p-k8-PO1" kind="presentation" modalPresentationStyle="fullScreen" id="8xa-OW-Mc8"/>
+                                    <segue destination="Skk-Pl-kI4" kind="presentation" modalPresentationStyle="fullScreen" id="rbn-Yp-WZ9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iye-vs-KxE">
@@ -560,15 +560,8 @@ links!!</string>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="2Fr-aC-wlk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PETITIONS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMo-gB-wA2">
-                                <rect key="frame" x="20" y="0.0" width="388" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="71"/>
-                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fp-wf-4c4">
-                                <rect key="frame" x="47" y="233" width="50" height="50"/>
+                                <rect key="frame" x="22" y="171" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -579,7 +572,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-OP-dDp">
-                                <rect key="frame" x="47" y="299" width="50" height="50"/>
+                                <rect key="frame" x="22" y="251" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -590,7 +583,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXo-de-aUv">
-                                <rect key="frame" x="47" y="364" width="50" height="50"/>
+                                <rect key="frame" x="22" y="331" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -601,7 +594,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-em-3K5">
-                                <rect key="frame" x="47" y="430" width="50" height="50"/>
+                                <rect key="frame" x="22" y="411" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -612,7 +605,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aor-6J-q26">
-                                <rect key="frame" x="46" y="496" width="50" height="50"/>
+                                <rect key="frame" x="22" y="488" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -623,7 +616,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfT-JN-fKR">
-                                <rect key="frame" x="47" y="561" width="50" height="50"/>
+                                <rect key="frame" x="22" y="571" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -634,7 +627,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCS-RG-QQ2">
-                                <rect key="frame" x="47" y="627" width="50" height="50"/>
+                                <rect key="frame" x="22" y="651" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -645,7 +638,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-oH-IS1">
-                                <rect key="frame" x="38" y="685" width="76" height="72"/>
+                                <rect key="frame" x="13" y="720" width="76" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -655,59 +648,129 @@ links!!</string>
                                     <action selector="petitionButton8pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="hdI-EW-TFD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="job one for humanity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lma-aU-Yib">
-                                <rect key="frame" x="85" y="219" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Job One For Humanity" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lma-aU-Yib">
+                                <rect key="frame" x="86" y="160" width="315" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="global deal for nature" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We1-sh-cZB">
-                                <rect key="frame" x="85" y="284" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign the Petition to Declare a Climate Change and Global Heating Emergency" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caa-Ti-Jrx">
+                                <rect key="frame" x="46" y="196" width="355" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="the nature conservancy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nci-Rs-Bsd">
-                                <rect key="frame" x="85" y="350" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign the Petition to World Leaders: The Time for Action on Climate Change is Now" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJh-6T-xal">
+                                <rect key="frame" x="46" y="596" width="355" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="turtle island restoration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHn-aG-U6R">
-                                <rect key="frame" x="85" y="416" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Take Action With Us [hub of more petitions]" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w69-GH-6Ys">
+                                <rect key="frame" x="46" y="744" width="368" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="empowered by light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqL-V3-kZE">
-                                <rect key="frame" x="85" y="481" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign to Ban Fossil Fuel Subsidies" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cn-yh-p15">
+                                <rect key="frame" x="46" y="436" width="355" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14G-Wa-OwZ">
-                                <rect key="frame" x="85" y="550" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Call on world leaders to protect half our lands and seas" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnX-m9-d3n">
+                                <rect key="frame" x="46" y="276" width="355" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSM-FL-Muo">
-                                <rect key="frame" x="85" y="619" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stand Up for Real Climate Action" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHx-e7-SXW">
+                                <rect key="frame" x="46" y="356" width="355" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwX-9X-1bZ">
-                                <rect key="frame" x="85" y="685" width="323" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Deal For Nature" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We1-sh-cZB">
+                                <rect key="frame" x="86" y="240" width="315" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Nature Conservancy" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nci-Rs-Bsd">
+                                <rect key="frame" x="86" y="320" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Atlas Movement" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHn-aG-U6R">
+                                <rect key="frame" x="86" y="401" width="642" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Action For Climate Emergency" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqL-V3-kZE">
+                                <rect key="frame" x="83" y="501" width="318" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NRDC" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14G-Wa-OwZ">
+                                <rect key="frame" x="86" y="560" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Action For Climate Emergency " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSM-FL-Muo">
+                                <rect key="frame" x="86" y="640" width="427" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Action For Climate Emergency " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwX-9X-1bZ">
+                                <rect key="frame" x="86" y="720" width="328" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TARGET &amp; WALMART: Eliminate Plastic Bags!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anp-my-OQ2">
+                                <rect key="frame" x="46" y="516" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tell President Biden to Declare a National Climate Emergency !" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a0-Qn-Fxc">
+                                <rect key="frame" x="46" y="676" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PETITIONS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1q-KZ-KfF">
+                                <rect key="frame" x="20" y="-30" width="388" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="71"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a petition to visit by clicking a flower, it may bloom into a beautiful change." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LR-ep-H35">
+                                <rect key="frame" x="53" y="98" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="16"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -733,7 +796,7 @@ links!!</string>
         <!--Donations!-->
         <scene sceneID="KNv-Tx-2SO">
             <objects>
-                <viewController title="Donations!" id="Skk-Pl-kI4" sceneMemberID="viewController">
+                <viewController title="Donations!" id="Skk-Pl-kI4" customClass="DonationsViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xw2-oj-pFY">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -765,9 +828,223 @@ links!!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DONATIONS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6Q-i9-heE">
-                                <rect key="frame" x="20" y="0.0" width="388" height="225"/>
+                                <rect key="frame" x="20" y="-28" width="388" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="71"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-UO-fRb">
+                                <rect key="frame" x="9" y="252" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton2pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="fs6-x0-Ugx"/>
+                                    <action selector="petitionButton2pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="AQB-NF-NMe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vv-6h-nQD">
+                                <rect key="frame" x="9" y="332" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton3pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="Mbs-rm-eOu"/>
+                                    <action selector="petitionButton3pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="rY2-LD-aTo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fn0-6k-o3w">
+                                <rect key="frame" x="9" y="412" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton4pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="Jyn-oE-jCX"/>
+                                    <action selector="petitionButton4pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="aSM-8h-W1V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvZ-eX-8iE">
+                                <rect key="frame" x="9" y="489" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton5pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="Di8-Ur-wBX"/>
+                                    <action selector="petitionButton5pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="JAa-Cx-8ms"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLk-Oi-xmN">
+                                <rect key="frame" x="9" y="572" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton6pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="EBg-d4-QdW"/>
+                                    <action selector="petitionButton6pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="LoG-Kc-dQl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCw-II-tCI">
+                                <rect key="frame" x="9" y="652" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton7pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="2aI-dc-oQl"/>
+                                    <action selector="petitionButton7pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="1IP-ux-SoU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga1-gc-cvK">
+                                <rect key="frame" x="9" y="732" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="whiteflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton8pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="vyN-o2-5P1"/>
+                                    <action selector="petitionButton8pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="GAJ-An-Csz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Atlas Movement" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9K-rs-kHN">
+                                <rect key="frame" x="73" y="161" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donate to back Atlas!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyZ-Pd-PgA">
+                                <rect key="frame" x="33" y="197" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Support vital projects that will help fight climate change and help save our one shared home." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsb-zt-zex">
+                                <rect key="frame" x="33" y="597" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Become a Climate Restorer" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXA-a0-dzo">
+                                <rect key="frame" x="33" y="745" width="368" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Resources Needs Your Help." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVW-UR-Syt">
+                                <rect key="frame" x="33" y="437" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make a gift today to educate young people about the climate emergency and empower them to take action." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnF-9O-3cv">
+                                <rect key="frame" x="33" y="277" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help Us Cool Down The Planet!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULm-cg-zWw">
+                                <rect key="frame" x="33" y="357" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Action For Climate Emergency" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eth-oM-fRl">
+                                <rect key="frame" x="73" y="241" width="328" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JustDiggit" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xC5-B8-wml">
+                                <rect key="frame" x="73" y="321" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Resources" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4c-Dy-f8M">
+                                <rect key="frame" x="73" y="402" width="642" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empowered By Light" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxk-Oc-iFm">
+                                <rect key="frame" x="70" y="502" width="214" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WWF" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNW-cB-MnJ">
+                                <rect key="frame" x="73" y="561" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NDRC" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVa-Cz-tKk">
+                                <rect key="frame" x="73" y="641" width="427" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FFCR " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCR-ID-G8a">
+                                <rect key="frame" x="73" y="721" width="335" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change lives with your gift! " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxx-SY-C3m">
+                                <rect key="frame" x="33" y="517" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Support NRDC’s Work For The Environment" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gmi-eF-bXk">
+                                <rect key="frame" x="33" y="677" width="355" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="15"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOS-6Y-4eS">
+                                <rect key="frame" x="9" y="179" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="brownflower"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="donationsButton1pressed:" destination="Skk-Pl-kI4" eventType="touchUpInside" id="0Mz-n6-Gd7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose somewhere to donate by clicking a flower, it may bloom into a beautiful change." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxF-bE-dWn">
+                                <rect key="frame" x="53" y="99" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="16"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -775,10 +1052,20 @@ links!!</string>
                         <viewLayoutGuide key="safeArea" id="JM2-6K-wLs"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="donationsButton1" destination="bOS-6Y-4eS" id="9RG-oM-WSE"/>
+                        <outlet property="donationsButton2" destination="Czu-UO-fRb" id="4Vx-fx-GcH"/>
+                        <outlet property="donationsButton3" destination="0vv-6h-nQD" id="yjQ-Al-r9r"/>
+                        <outlet property="donationsButton4" destination="Fn0-6k-o3w" id="Vhr-G5-3dh"/>
+                        <outlet property="donationsButton5" destination="BvZ-eX-8iE" id="8lt-z2-mht"/>
+                        <outlet property="donationsButton6" destination="mLk-Oi-xmN" id="fHS-h6-Ywk"/>
+                        <outlet property="donationsButton7" destination="iCw-II-tCI" id="z4C-kI-wij"/>
+                        <outlet property="donationsButton8" destination="Ga1-gc-cvK" id="dmw-EH-Hok"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8z-VN-Dgp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2101" y="83"/>
+            <point key="canvasLocation" x="2100" y="82.937365010799141"/>
         </scene>
         <!--QuizStart!-->
         <scene sceneID="ogC-Ax-xRf">
@@ -1824,14 +2111,15 @@ completed!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Pk8-CK-fDD"/>
-        <segue reference="rRw-yI-E8K"/>
-        <segue reference="Dj3-Rl-fLK"/>
-        <segue reference="Plv-q8-MDo"/>
-        <segue reference="ab7-bK-1V1"/>
+        <segue reference="PBv-Pt-MMW"/>
+        <segue reference="PgW-kv-Rii"/>
+        <segue reference="fcG-AT-rlj"/>
+        <segue reference="Ruf-eC-8md"/>
+        <segue reference="kTE-Bn-veH"/>
         <segue reference="rer-3u-Zo9"/>
-        <segue reference="8xa-OW-Mc8"/>
-        <segue reference="Kts-5N-2Zn"/>
+        <segue reference="rbn-Yp-WZ9"/>
+        <segue reference="7Zx-g1-5wj"/>
+        <segue reference="2wa-Ai-M40"/>
         <segue reference="fTb-Ll-hmQ"/>
     </inferredMetricsTieBreakers>
     <resources>

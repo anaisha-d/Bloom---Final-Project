@@ -24,6 +24,7 @@
 		7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29B39288A4500004C2AFC /* EmailViewController.swift */; };
 		8542B7D5288A7A4A00DBAE02 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D4288A7A4A00DBAE02 /* ChecklistViewController.swift */; };
 		BD66B4272889D4AC008AA1AD /* PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */; };
+		BD66B429288ACEDF008AA1AD /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66B428288ACEDF008AA1AD /* DonationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		7BA29B39288A4500004C2AFC /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		8542B7D4288A7A4A00DBAE02 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionsViewController.swift; sourceTree = "<group>"; };
+		BD66B428288ACEDF008AA1AD /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 		7BA29AC82887393D004C2AFC = {
 			isa = PBXGroup;
 			children = (
-				BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */,
+				BD66B428288ACEDF008AA1AD /* DonationsViewController.swift */,
 				7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */,
 				7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */,
 				7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */,
@@ -119,6 +121,7 @@
 		7BA29AD32887393D004C2AFC /* Bloom - Final Project */ = {
 			isa = PBXGroup;
 			children = (
+				BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */,
 				7BA29B39288A4500004C2AFC /* EmailViewController.swift */,
 				7BA29AD42887393D004C2AFC /* AppDelegate.swift */,
 				7BA29AD62887393D004C2AFC /* SceneDelegate.swift */,
@@ -292,6 +295,7 @@
 				8542B7D5288A7A4A00DBAE02 /* ChecklistViewController.swift in Sources */,
 				7BA29AD72887393D004C2AFC /* SceneDelegate.swift in Sources */,
 				BD66B4272889D4AC008AA1AD /* PetitionsViewController.swift in Sources */,
+				BD66B429288ACEDF008AA1AD /* DonationsViewController.swift in Sources */,
 				7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M87Q56NDD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bloom - Final Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -496,6 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M87Q56NDD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bloom - Final Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
