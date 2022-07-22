@@ -116,7 +116,7 @@
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="the different types" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-az-Upz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="why is it happening?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-az-Upz">
                                 <rect key="frame" x="52" y="346" width="388" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
@@ -221,14 +221,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjf-Kl-Ob3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="your name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjf-Kl-Ob3">
                                 <rect key="frame" x="42" y="607" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="30"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rep Name:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sie-nF-Tyt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rep name:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sie-nF-Tyt">
                                 <rect key="frame" x="15" y="632" width="195" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="30"/>
@@ -258,7 +258,7 @@
                                 <state key="normal" title="See Score">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Send">
+                                <buttonConfiguration key="configuration" style="filled" title="send">
                                     <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="37"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -268,7 +268,7 @@
                                     <action selector="whenSendButtonPressed:" destination="TYb-Te-RLy" eventType="touchUpInside" id="Rvt-Bt-4Xg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rep email:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y53-80-GdQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rep email:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y53-80-GdQ">
                                 <rect key="frame" x="14" y="685" width="195" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="30"/>
@@ -569,7 +569,7 @@ links!!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fp-wf-4c4">
-                                <rect key="frame" x="52" y="205" width="50" height="50"/>
+                                <rect key="frame" x="47" y="233" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -580,7 +580,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-OP-dDp">
-                                <rect key="frame" x="52" y="271" width="50" height="50"/>
+                                <rect key="frame" x="47" y="299" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -591,7 +591,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXo-de-aUv">
-                                <rect key="frame" x="52" y="336" width="50" height="50"/>
+                                <rect key="frame" x="47" y="364" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -602,7 +602,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-em-3K5">
-                                <rect key="frame" x="52" y="402" width="50" height="50"/>
+                                <rect key="frame" x="47" y="430" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -613,7 +613,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aor-6J-q26">
-                                <rect key="frame" x="51" y="468" width="50" height="50"/>
+                                <rect key="frame" x="46" y="496" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -624,7 +624,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfT-JN-fKR">
-                                <rect key="frame" x="52" y="533" width="50" height="50"/>
+                                <rect key="frame" x="47" y="561" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -635,7 +635,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCS-RG-QQ2">
-                                <rect key="frame" x="52" y="599" width="50" height="50"/>
+                                <rect key="frame" x="47" y="627" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -646,7 +646,7 @@ links!!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-oH-IS1">
-                                <rect key="frame" x="52" y="707" width="50" height="50"/>
+                                <rect key="frame" x="38" y="685" width="76" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -656,6 +656,62 @@ links!!</string>
                                     <action selector="petitionButton8pressed:" destination="83p-k8-PO1" eventType="touchUpInside" id="hdI-EW-TFD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="job one for humanity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lma-aU-Yib">
+                                <rect key="frame" x="85" y="219" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="global deal for nature" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We1-sh-cZB">
+                                <rect key="frame" x="85" y="284" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="the nature conservancy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nci-Rs-Bsd">
+                                <rect key="frame" x="85" y="350" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="turtle island restoration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHn-aG-U6R">
+                                <rect key="frame" x="85" y="416" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="empowered by light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqL-V3-kZE">
+                                <rect key="frame" x="85" y="481" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14G-Wa-OwZ">
+                                <rect key="frame" x="85" y="550" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSM-FL-Muo">
+                                <rect key="frame" x="85" y="619" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*insert name of petition*" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwX-9X-1bZ">
+                                <rect key="frame" x="85" y="685" width="323" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="29"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s6D-1T-NXy"/>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.80784313725490198" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -842,38 +898,12 @@ links!!</string>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-jo-v0Q">
-                                <rect key="frame" x="143" y="598" width="142" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="4.75 million">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="whenQ1A2ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="5Ah-Gh-yuC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-7U-rzO">
                                 <rect key="frame" x="143" y="676" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="5.67 billion">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="5.67 billion">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -888,18 +918,24 @@ links!!</string>
                                 <rect key="frame" x="143" y="535" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="5.25 trillion">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="5.25 trillion">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="whenQ1A1ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="han-5B-iio"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-jo-v0Q">
+                                <rect key="frame" x="143" y="605" width="142" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="4.75 million">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
+                                    <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenQ1A2ButtonPressed:" destination="KdB-GU-Pwh" eventType="touchUpInside" id="5Ah-Gh-yuC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -952,15 +988,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="528" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="driving">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="driving">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -971,15 +1000,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="602" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="biking">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="biking">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -990,15 +1012,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="680" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="public">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="public">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1044,15 +1059,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="521" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="yes">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="yes">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1063,15 +1071,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="595" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="no">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="no">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1082,15 +1083,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="673" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="not sure">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="not sure">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1154,15 +1148,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="517" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="50%">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="50%">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1173,15 +1160,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="591" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="19%">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="19%">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1192,15 +1172,8 @@ links!!</string>
                                 <rect key="frame" x="143" y="669" width="142" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="29%">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="29%">
+                                    <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="23"/>
                                     <color key="baseBackgroundColor" red="0.27947831150000002" green="0.62344455720000003" blue="0.59608167410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1279,6 +1252,16 @@ links!!</string>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="wBH-YL-S9K"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5z-5u-x3d">
+                                <rect key="frame" x="20" y="265" width="385" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Greta Thunberg is an environmental activist from Sweden. She is most known for challenging political leaders to start helping with the fight against climate change. She became known when she protested at the Swedish Parliament in 2018, while holding a sign “School Strike for Climate.” 
+
+David Attenborough is a broadcaster, biologist, historian, and author from the U.K. He has warned leaders and spoken aloud about his thoughts on climate change, saying that “If we don’t act now, it’ll be too late.” In 2019, he also created a documentary about c.c.</string>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="26"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7Jd-7I-rh2"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1348,6 +1331,24 @@ WE PREVENT
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ANG-BW-LNw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgF-Sk-xNP">
+                                <rect key="frame" x="24" y="251" width="385" height="558"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Some simple things which one can do to help prevent climate change from escalating are:
+-Add solar panels to your house
+-Change your light bulbs to LEDs
+-Buy a water-efficient shower head
+-Wash your clothes in cold water
+-Unplug electronic devices when not in use
+-Hang-dry clothes instead of using a dryer
+-Don’t drink from disposable bottled waters or aluminum cans
+-Bring your own shopping bags
+-Replace your gas car with an electric vehicle (or bike because it's the most energy-efficient way of transportation)
+-Plant a garden or at least one new tree</string>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xTB-hw-uyQ"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1356,7 +1357,7 @@ WE PREVENT
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KiH-51-Ysm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2860" y="-601"/>
+            <point key="canvasLocation" x="2859.8130841121492" y="-601.29589632829379"/>
         </scene>
         <!--QuizQuestion7!-->
         <scene sceneID="GLg-NU-E5N">
@@ -1380,7 +1381,7 @@ WE PREVENT
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGk-Gy-szc">
-                                <rect key="frame" x="20" y="62" width="388" height="225"/>
+                                <rect key="frame" x="20" y="44" width="388" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">HOW DOES 
 IT AFFECT 
@@ -1415,6 +1416,14 @@ US?</string>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Ulg-Vk-Bmi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg0-7X-4aL">
+                                <rect key="frame" x="23" y="248" width="385" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Climate change affects us because in most cases of climate change, the Earth becomes warmer, which can lead to heat waves, which are very harmful to people, and can lead to deaths and health problems. Climate change also worsens the air quality, which can again be harmful to the health of humans. Along with that, ocean levels rising can cause coastal cities to get flooded. Climate change also causes more natural disasters such as droughts, hurricanes, etc. which can destroy property, which society will need to pay for. These horrible outcomes have largely to do with greenhouse gas emissions, 29% of which comes from plant-based foods.</string>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="26"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r3T-Zp-Bxj"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1423,7 +1432,7 @@ US?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u44-1u-P3L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2162" y="-601"/>
+            <point key="canvasLocation" x="2161.6822429906542" y="-601.29589632829379"/>
         </scene>
         <!--QuizQuestion8!-->
         <scene sceneID="0hf-hI-yP6">
@@ -1446,9 +1455,12 @@ US?</string>
                                     <segue destination="90R-6T-gO7" kind="presentation" modalPresentationStyle="fullScreen" id="GQh-x5-2e3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE DIFFERENT TYPES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEE-tg-9b8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEE-tg-9b8">
                                 <rect key="frame" x="20" y="44" width="388" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">WHY 
+IS IT
+ HAPPENING?</string>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="65"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -1479,6 +1491,14 @@ US?</string>
                                     <segue destination="dRP-gE-XAy" kind="presentation" modalPresentationStyle="fullScreen" id="Pk8-CK-fDD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmb-NA-gtg">
+                                <rect key="frame" x="10" y="234" width="408" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Climate change is always occurring, but there are effects that are causing it to become more noticeable to humans now. Climate change naturally occurs because of Earth’s distance from the sun, how much energy the sun releases, and many more things. However, the amount of energy which humans are using for everyday activities, such as cooking and driving, are causing the Earth’s climate to change more rapidly. The way which we get energy is by burning fuels such as coal, oil, and gas. When we burn these fuels, or when plastic (which contains these fuels) is heated up in the sun, they release gases in the air, causing the Earth to heat up and therefore the climate to change. There are 5.25 trillion pieces of plastic in the ocean.</string>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="25"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hk2-QK-Y3I"/>
                         <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1487,7 +1507,7 @@ US?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7D-5R-5vT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1457" y="-601"/>
+            <point key="canvasLocation" x="1456.5420560747664" y="-601.29589632829379"/>
         </scene>
         <!--QuizQuestion9!-->
         <scene sceneID="NXo-gz-rqe">
@@ -1544,6 +1564,14 @@ US?</string>
                                 <string key="text">WHAT IS 
 CLIMATE CHANGE?</string>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="65"/>
+                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMq-B9-yYd">
+                                <rect key="frame" x="10" y="253" width="408" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Climate change is when the weather in a certain location differs from what it usually is. An area can get more rain, become warmer, or experience any other weather differences. In addition to being a difference in weather in a certain area, climate change is also a change in Earth’s climate. This may not seem that important, since Earth’s climate is always changing, but over the past few years, more noticeable changes have been occurring. According to NASA, the temperature of Earth’s climate has increased by 1ºF in the past 100 years, which has caused some huge effects, such as glaciers melting, oceans rising, wildfires, and more.</string>
+                                <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="26"/>
                                 <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1639,7 +1667,7 @@ CLIMATE CHANGE?</string>
                                 <state key="normal" title="See Score">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <buttonConfiguration key="configuration" style="filled" title="See Score">
+                                <buttonConfiguration key="configuration" style="filled" title="see score">
                                     <fontDescription key="titleFontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="37"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.2784313725" green="0.62352941179999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1812,13 +1840,13 @@ completed!</string>
         <segue reference="wMk-md-RuA"/>
         <segue reference="Pk8-CK-fDD"/>
         <segue reference="rRw-yI-E8K"/>
-        <segue reference="GQh-x5-2e3"/>
+        <segue reference="Dj3-Rl-fLK"/>
         <segue reference="Plv-q8-MDo"/>
         <segue reference="ab7-bK-1V1"/>
-        <segue reference="yqY-e3-4uG"/>
+        <segue reference="rer-3u-Zo9"/>
         <segue reference="8xa-OW-Mc8"/>
-        <segue reference="v1Z-US-xhf"/>
-        <segue reference="fTb-Ll-hmQ"/>
+        <segue reference="ANG-BW-LNw"/>
+        <segue reference="Jiz-n3-wrN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Unknown" width="298" height="169"/>
