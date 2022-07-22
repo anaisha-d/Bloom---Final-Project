@@ -22,9 +22,7 @@
 		7BA29B3428888AD8004C2AFC /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */; };
 		7BA29B3628888B5A004C2AFC /* Gaegu in Resources */ = {isa = PBXBuildFile; fileRef = 7BA29B3528888B5A004C2AFC /* Gaegu */; };
 		7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA29B39288A4500004C2AFC /* EmailViewController.swift */; };
-		8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */; };
-		8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D028891A3200DBAE02 /* ToDo.swift */; };
-		8542B7D328892E4B00DBAE02 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */; };
+		8542B7D5288A7A4A00DBAE02 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7D4288A7A4A00DBAE02 /* ChecklistViewController.swift */; };
 		BD66B4272889D4AC008AA1AD /* PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,9 +63,7 @@
 		7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaegu-Bold.ttf"; path = "Bloom - Final Project/Gaegu/Gaegu-Bold.ttf"; sourceTree = "<group>"; };
 		7BA29B3528888B5A004C2AFC /* Gaegu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gaegu; sourceTree = "<group>"; };
 		7BA29B39288A4500004C2AFC /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
-		8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
-		8542B7D028891A3200DBAE02 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		8542B7D4288A7A4A00DBAE02 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,9 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				BD66B4262889D4AC008AA1AD /* PetitionsViewController.swift */,
-				8542B7D228892E4B00DBAE02 /* CompleteToDoViewController.swift */,
-				8542B7D028891A3200DBAE02 /* ToDo.swift */,
-				8542B7CE28891A0100DBAE02 /* ToDoTableViewController.swift */,
 				7BA29B3128888AD7004C2AFC /* Gaegu-Bold.ttf */,
 				7BA29B2F28888AD7004C2AFC /* Gaegu-Light.ttf */,
 				7BA29B3028888AD7004C2AFC /* Gaegu-Regular.ttf */,
@@ -131,6 +124,7 @@
 				7BA29AD62887393D004C2AFC /* SceneDelegate.swift */,
 				7BA29AD82887393D004C2AFC /* ViewController.swift */,
 				7BA29ADA2887393D004C2AFC /* Main.storyboard */,
+				8542B7D4288A7A4A00DBAE02 /* ChecklistViewController.swift */,
 				7BA29AE02887393F004C2AFC /* Assets.xcassets */,
 				7BA29AE22887393F004C2AFC /* LaunchScreen.storyboard */,
 				7BA29AE52887393F004C2AFC /* Info.plist */,
@@ -295,11 +289,9 @@
 				7BA29ADF2887393D004C2AFC /* Bloom___Final_Project.xcdatamodeld in Sources */,
 				7BA29AD92887393D004C2AFC /* ViewController.swift in Sources */,
 				7BA29AD52887393D004C2AFC /* AppDelegate.swift in Sources */,
-				8542B7D328892E4B00DBAE02 /* CompleteToDoViewController.swift in Sources */,
-				8542B7D128891A3200DBAE02 /* ToDo.swift in Sources */,
+				8542B7D5288A7A4A00DBAE02 /* ChecklistViewController.swift in Sources */,
 				7BA29AD72887393D004C2AFC /* SceneDelegate.swift in Sources */,
 				BD66B4272889D4AC008AA1AD /* PetitionsViewController.swift in Sources */,
-				8542B7CF28891A0100DBAE02 /* ToDoTableViewController.swift in Sources */,
 				7BA29B3A288A4500004C2AFC /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

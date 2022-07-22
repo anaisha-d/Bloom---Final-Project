@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -371,7 +370,7 @@
                                     <backgroundConfiguration key="background" image="yellowflower"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="OMf-Vm-2lc" kind="presentation" identifier="" modalPresentationStyle="fullScreen" id="AF0-UV-ZUs"/>
+                                    <segue destination="z5H-N3-RKo" kind="presentation" modalPresentationStyle="fullScreen" id="x1a-KO-Sow"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="helping people combat climate change!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcg-jB-9hp">
@@ -392,7 +391,7 @@
                                 <rect key="frame" x="256" y="568" width="142" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gaegu-Bold" family="Gaegu" pointSize="27"/>
-                                <color key="textColor" red="0.40359300370000001" green="0.24339321259999999" blue="0.113677524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.40392156862745099" green="0.24313725490196078" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="email!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saw-0g-Wmb">
@@ -1688,12 +1687,35 @@ CLIMATE CHANGE?</string>
             </objects>
             <point key="canvasLocation" x="-38" y="785"/>
         </scene>
+        <!--Checklist View Controller-->
+        <scene sceneID="6e4-52-Xn9">
+            <objects>
+                <viewController id="DXh-Sa-3Gk" customClass="ChecklistViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZWD-46-3vt">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ghj-6t-HMv"/>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.80784313730000001" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hxW-cu-p8H">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" title="back home!" style="done" id="pWv-IL-3P1">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Kts-5N-2Zn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IdZ-KU-HuW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2890.6542056074763" y="784.66522678185754"/>
+        </scene>
         <!--Complete To Do View Controller-->
         <scene sceneID="zLm-y1-pOh">
             <objects>
                 <viewController id="pIs-zi-0Y2" customClass="CompleteToDoViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x27-XN-0R0">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1n-g6-p2V">
@@ -1722,7 +1744,6 @@ completed!</string>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="completeTapped:" destination="pIs-zi-0Y2" eventType="touchUpInside" id="47D-eL-Zja"/>
-                                    <segue destination="bLJ-lf-6Cc" kind="show" id="wMk-md-RuA"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="yIb-3R-3uA">
@@ -1775,79 +1796,43 @@ completed!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wd1-ZO-2zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2964.9532710280373" y="729.58963282937373"/>
+            <point key="canvasLocation" x="3864.9532710280373" y="729.58963282937373"/>
         </scene>
-        <!--to-do list!-->
-        <scene sceneID="JkY-bA-SOi">
+        <!--Navigation Controller-->
+        <scene sceneID="2HJ-hT-hrM">
             <objects>
-                <tableViewController id="bLJ-lf-6Cc" customClass="ToDoTableViewController" customModule="Bloom___Final_Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="K9v-5M-DUg">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="gHC-XE-dZ0">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gHC-XE-dZ0" id="CR7-hs-LD3">
-                                    <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.50253498549999998" green="0.8078202605" blue="0.73332911730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="bLJ-lf-6Cc" id="1dj-ax-FP9"/>
-                            <outlet property="delegate" destination="bLJ-lf-6Cc" id="j5N-bq-c9V"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="to-do list!" id="gJW-Fy-ifq">
-                        <barButtonItem key="rightBarButtonItem" title="back home!" style="plain" id="O3J-Tg-dxb">
-                            <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="uq0-Fj-Dmf"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <segue destination="pIs-zi-0Y2" kind="show" identifier="moveToComplete" id="FPi-9y-yOK"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qmS-Tu-HrQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2183" y="730"/>
-        </scene>
-        <!--to-do list!-->
-        <scene sceneID="pZP-4d-usg">
-            <objects>
-                <navigationController title="to-do list!" id="OMf-Vm-2lc" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h3Y-El-prf">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z5H-N3-RKo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ngR-uT-UD8">
+                        <rect key="frame" x="0.0" y="44" width="428" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                        </textAttributes>
                     </navigationBar>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qVT-9h-FMc">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="bLJ-lf-6Cc" kind="relationship" relationship="rootViewController" id="jSu-s9-crg"/>
+                        <segue destination="DXh-Sa-3Gk" kind="relationship" relationship="rootViewController" id="tHq-sG-xdI"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bA6-C3-cRe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q0L-pM-q2j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1430" y="730"/>
+            <point key="canvasLocation" x="2100" y="785"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9pG-dG-tck"/>
-        <segue reference="wMk-md-RuA"/>
         <segue reference="Pk8-CK-fDD"/>
         <segue reference="rRw-yI-E8K"/>
         <segue reference="Dj3-Rl-fLK"/>
         <segue reference="Plv-q8-MDo"/>
         <segue reference="ab7-bK-1V1"/>
-        <segue reference="yqY-e3-4uG"/>
+        <segue reference="rer-3u-Zo9"/>
         <segue reference="8xa-OW-Mc8"/>
-        <segue reference="H7N-f7-ciQ"/>
-        <segue reference="Jiz-n3-wrN"/>
+        <segue reference="Kts-5N-2Zn"/>
+        <segue reference="fTb-Ll-hmQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Unknown" width="298" height="169"/>
@@ -1859,8 +1844,5 @@ completed!</string>
         <image name="whiteflower" width="125" height="110"/>
         <image name="wildfire" width="280" height="180"/>
         <image name="yellowflower" width="95" height="91"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
