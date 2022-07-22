@@ -2124,7 +2124,7 @@ completed!</string>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Unknown" width="298" height="169"/>
-        <image name="appicon" width="580" height="431"/>
+        <image name="appicon" width="193.33332824707031" height="143.66667175292969"/>
         <image name="brownflower" width="114" height="109"/>
         <image name="plants" width="301" height="167"/>
         <image name="plastic" width="275" height="183"/>
